@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CodeCentralExampleInMemoryDataStoreProvider.cs](./CS/NewObjectInit.Module/CodeCentralExampleInMemoryDataStoreProvider.cs) (VB: [CodeCentralExampleInMemoryDataStoreProvider.vb](./VB/NewObjectInit.Module/CodeCentralExampleInMemoryDataStoreProvider.vb))
+* **[NewValuesController.cs](./CS/NewObjectInit.Module/NewValuesController.cs) (VB: [NewValuesController.vb](./VB/NewObjectInit.Module/NewValuesController.vb))**
+<!-- default file list end -->
 # How to copy last entered values into a newly created object, when using the Save and New action
 
 
