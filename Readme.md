@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [NewValuesController.cs](./CS/NewObjectInit.Module/NewValuesController.cs) (VB: [NewValuesController.vb](./VB/NewObjectInit.Module/NewValuesController.vb))
+* [WebApplication.cs](./CS/NewObjectInit.Web/ApplicationCode/WebApplication.cs) (VB: [WebApplication.vb](./VB/NewObjectInit.Web/ApplicationCode/WebApplication.vb))
+<!-- default file list end -->
 # How to copy last entered values into a newly created object, when using the Save and New action
 
 
