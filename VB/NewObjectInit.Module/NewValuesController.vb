@@ -15,7 +15,7 @@ Namespace NewObjectInit.Module
             RegisterActions(components)
         End Sub
         Private detailViewController As ModificationsController
-        Private Sub ViewController1_Activated(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Activated
+        Private Sub ViewController1_Activated(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Activated
             detailViewController = Frame.GetController(Of ModificationsController)()
             AddHandler detailViewController.SaveAndNewAction.Executing, AddressOf SaveAndNewAction_Executing
             AddHandler Frame.ViewChanged, AddressOf Frame_ViewChanged

@@ -18,7 +18,7 @@ Namespace NewObjectInit.Win
             args.ObjectSpaceProvider = New XPObjectSpaceProvider(args.ConnectionString, args.Connection)
         End Sub
 
-        Private Sub NewObjectInitWindowsFormsApplication_DatabaseVersionMismatch(ByVal sender As Object, ByVal e As DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs) Handles MyBase.DatabaseVersionMismatch
+        Private Sub NewObjectInitWindowsFormsApplication_DatabaseVersionMismatch(ByVal sender As Object, ByVal e As DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs) Handles Me.DatabaseVersionMismatch
 #If EASYTEST Then
             e.Updater.Update()
             e.Handled = True
