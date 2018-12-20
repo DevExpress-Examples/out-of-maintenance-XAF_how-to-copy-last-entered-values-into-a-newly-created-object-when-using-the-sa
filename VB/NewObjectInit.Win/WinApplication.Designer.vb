@@ -34,7 +34,7 @@
             Me.securitySimple1 = New DevExpress.ExpressApp.Security.SecuritySimple()
             Me.authenticationActiveDirectory1 = New DevExpress.ExpressApp.Security.AuthenticationActiveDirectory()
             Me.sqlConnection1 = New System.Data.SqlClient.SqlConnection()
-            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' securitySimple1
             ' 
@@ -63,7 +63,7 @@
             Me.Modules.Add(Me.module7)
             Me.Modules.Add(Me.securityModule1)
             Me.Security = Me.securitySimple1
-            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
         End Sub
 
