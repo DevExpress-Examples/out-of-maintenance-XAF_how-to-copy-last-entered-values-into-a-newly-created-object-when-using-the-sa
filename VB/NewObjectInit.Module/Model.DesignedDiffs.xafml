@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Application Title="NewObjectInit" Logo="ExpressAppLogo">
-  <NavigationItems>
-    <Items>
-      <Item Id="d417c166-fa47-4344-9b28-229c8aba83df" IsNewNode="True" Caption="Person" ViewId="Person_ListView" />
-    </Items>
-  </NavigationItems>
-</Application>
